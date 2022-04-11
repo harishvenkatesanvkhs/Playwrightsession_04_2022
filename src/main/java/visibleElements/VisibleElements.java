@@ -20,7 +20,7 @@ public class VisibleElements {
 		page.navigate("https://www.amazon.com/");
 		List<String> titles = page.locator("a:visible").allInnerTexts();
 		for (String e : titles) {
-			System.out.println(e);
+			System.out.println("Titles are:"+e);
 		}
 		
 		
